@@ -2,6 +2,7 @@ import requests
 import csv
 
 class StockItem(object):
+    #comment
     def __init__(self, date, open, high, close, volume):
         self.date = date
         self.open = open
